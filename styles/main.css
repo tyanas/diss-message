@@ -1,0 +1,91 @@
+/* line 3, main.sass */
+body {
+  background: #efefef;
+  font-family: Helvetica, Arial;
+  color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+/* line 11, main.sass */
+body .bespoke-parent {
+  background: #111111;
+}
+/* line 14, main.sass */
+body .bespoke-slide {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 4em;
+}
+/* line 24, main.sass */
+body .bespoke-inactive {
+  display: none;
+}
+/* line 27, main.sass */
+body .bespoke-active {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+}
+/* line 30, main.sass */
+body section {
+  background-position: center center;
+  background-size: cover;
+}
+/* line 34, main.sass */
+body section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 41, main.sass */
+body section .content {
+  padding: 1em;
+  word-break: break-word;
+}
+/* line 45, main.sass */
+body section .content.years {
+  color: white;
+}
+/* line 48, main.sass */
+body section .underline {
+  border-bottom: 0.1em solid white;
+}
+/* line 51, main.sass */
+body section .strikethrough {
+  text-decoration: line-through;
+  color: #999999;
+}
+/* line 55, main.sass */
+body section .classy {
+  font-family: Baskerville;
+  font-style: italic;
+}
+/* line 59, main.sass */
+body section .code {
+  font-family: "Source Code Pro";
+  font-size: 0.8125em;
+  font-weight: bold;
+  color: #00ccff;
+}
+/* line 65, main.sass */
+body section .goright {
+  text-align: right;
+  display: block;
+  font-size: 0.6125em;
+  padding: 10px 0 0 0;
+}
